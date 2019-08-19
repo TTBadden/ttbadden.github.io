@@ -1,0 +1,116 @@
+body {
+      font-family: 'Gugi', sans-serif;
+      color: black;
+      margin: 0;
+}
+h1 {
+  font-size: 64px;
+  font-weight: 300;
+  line-height: 64px;
+  margin-bottom: 0;
+}
+h2 {
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
+h3 {
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+p {
+  margin-bottom: 30px;
+  line-height: 40px;
+}
+header {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+  padding: 0px;
+  padding-top: 20px;
+}
+nav {
+  margin-bottom: 30px;
+  text-align: center;
+}
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+nav li{
+  display: inline-block;
+  margin-right: 20px;
+  list-style-type: none;
+}
+nav a{
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+main {
+  width: 70%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+footer {
+  color: #fff;
+  font-size: 14px;
+  padding: 20px;
+  background-color: #5c5858;
+}
+footer p{
+  margin: 0;
+}
+nav a:hover {
+  color: #ecc5c0;
+  text-decoration: none;
+}
+a {
+  color: gray;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+.mainimage {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 160px;
+  padding-bottom: 160px;
+  background-color: #ddd;
+  background-image: url(images/the-Art-of-Uncharted-Lost-Legacy-37.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.color {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.college {
+  color: #black;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 160px;
+  padding-bottom: 160px;
+  background-color: #ddd;
+  background-image: url(images/Digital-Media-Section-Banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div {
+  background-color: #c8a2c8;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+}
