@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Self Paradise</title>
+	<link rel="stylesheet" href="css/main.css">
+	
+</head>
+<body>
+	<div id="header">
+		<a href="index.html">
+			<div id="logo">
+			</div>
+		</a>
+	</div>
+	
+	<nav>
+		<ul>
+			<li><a href="indooract.html">Indoor Activites</a></li>
+			<li><a href="mne.html">Must Need Essentials</a></li>
+			<li><a href="outdoore.html">Outdoor Activites</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="advice.html">Advice</a></li>
+		</ul>
+	</nav>
+	
+	<div class="slideshow-container">
+	
+	
+	<div class="mySlides fade">
+		<img src="img/getty_504482978_350826.jpg" alt="Relax" style="width:100%">
+		<div class="text">Have A Time Of Your Day To Try Some Of These Relaxing Techiques</div>
+		</div>
+		
+		<div class="mySlides fade">
+			<img src="img/getty_501912142_200013332000928048_325616.jpg"  alt="Indoor" style="width:100%">
+			<div class="text">The Weather Got The Best Of You? Don't Worry, Here Are Some Cool Indoor Activities To Keep You Occupied</div>
+		</div>
+		
+		<div class="mySlides fade">
+			<img src="img/getty_550760509_9706479704500197_76447.jpg"  alt="Fun" style="width:100%">
+			<div class="text">Whether It's Sunny Or Rainy, You Can Still Enjoy Your Time </div>
+		</div>
+		
+	</div>
+	<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+	<h1>Why Does Self-Care Matter?</h1>
+	<p>It's important to take care of yourself physically, mentally, emotionally, and spirtually everyday in order to feel good about yourself. Self-Care will help reduce stress, keep you healthy, resilient and gain self confidence.  </p>
+	<footer>
+		<p>©Taisha Badden</p>
+	</footer>
+</body>
+</html> 
+
+		
+	
+

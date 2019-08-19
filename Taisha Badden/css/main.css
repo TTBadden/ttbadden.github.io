@@ -1,0 +1,1086 @@
+body {
+	background-color: #fcdfff;
+	color: grey;
+	font-family: Raleway, sans-serif;
+	font-size: 18px;
+	margin: o;
+}
+img {
+	border: 0;
+}
+h1 {
+	text-align: center;
+	color: #50ebec;;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+p {
+	text-align: center;
+	color: #493d26;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom: 200px;
+	align-content: center;
+	margin-bottom: 100px;
+	line-height: 40px;
+	border-right: thick;
+	margin-top: 100px;
+}
+footer {
+	color: antiquewhite;
+	font-size: 14px;
+	padding: 20px;
+	background-color: #f778a1;
+}
+#header {
+	height: 500px;
+	width: 500px;
+	background: url("../../../Documents/logo.png") no-repeat;
+	position: relative;
+	border-right: 1px solid #fcdfff;
+	border-left: 1px solid #fcdfff;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+nav a {
+    font-size: 20px;
+    color: #E77471;
+    text-transform: uppercase;
+}
+nav a:hover {
+    color: #f778a1;
+    text-decoration: none;
+}
+a {
+    color: blue;
+    text-decoration: none;
+}
+a:visited {
+    color: #fdd017;
+}
+a:hover {
+    color: #f778a1;
+    text-decoration: underline;
+}
+nav {
+	margin-top: 100px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+#logo {
+	position: a;
+	height: 500px;
+	width: px;
+	text-indent: -9000px;
+	left: -43px;
+	top: 1px;
+}
+
+* {box-sizing: border-box;}
+body {font-family: Raleway, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/*slideshow container */
+.slideshow-container {
+	max-width: 100%;
+	position: relative;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+/* Caption text*/
+.text {
+	color: white;
+	margin-top: 60px;
+	font-size: 45px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 30px;
+	width: 100%;
+	text-align: center;
+	font-family: 'Inconsolata', monospace, sans-serif;
+}
+/* Number text (1/3 etc) */
+.numbertext {
+	color: black;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+/* The dots/bullets/indicators */
+.dot {
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 10s ease;
+}
+
+.active {
+	background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+	-webkit-animation-name: right;
+	-webkit-animation-duration: 10s;
+	animation-name: right;
+	animation-duration: 10s;
+}
+
+@-webkit-keyframes fade {
+	from {opacity: 4}
+	to {opacity: 2}
+}
+
+@keyframes fade {
+	from {opacity: .4}
+	to {opacity: 2}
+}
+	
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+	.text {font-size: 11px}
+}
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url("../../../Documents/ArometherapyWOrkshop.jpg");
+	background-size: 100%;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.container:hover .overlay {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container2 {
+  position: relative;
+  width: 100%;
+}
+
+.image2 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url("../../../Documents/Energetics-and-the-Soul-of-Essential-Oils.jpg");
+	background-size: 100%;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.container:hover .overlay2 {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.text2 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container3 {
+  position: relative;
+  width: 100%;
+}
+
+.image3 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url("../../../Documents/61DjbZSbOoL._SL1500_.jpg";
+	background-size: 100%;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.container:hover .overlay3 {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.text3 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container4 {
+  position: relative;
+  width: 100%;
+}
+
+.image4 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay4 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url("../../../Documents/pivot_20header.0.jpg");
+	background-size: 100%;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.container:hover .overlay4 {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.text4 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container5 {
+  position: relative;
+  width: 100%;
+}
+
+.image5 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay5 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url("../../../Documents/coconut-oil.jpg");
+	background-size: 100%;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.container:hover .overlay5 {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.text5 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container6 {
+  position: relative;
+  width: 100%;
+}
+
+.image6 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay6 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url("../../../Documents/Energetics-and-the-Soul-of-Essential-Oils.jpg");
+	background-size: 100%;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.container:hover .overlay6 {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.text6 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container7 {
+  position: relative;
+  width: 100%;
+}
+
+.image7 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay7 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url("../../../Documents/Energetics-and-the-Soul-of-Essential-Oils.jpg");
+	background-size: 100%;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.container:hover .overlay7 {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.text7 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container8 {
+  position: relative;
+  width: 100%;
+}
+
+.image8 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay8 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url("../../../Documents/Energetics-and-the-Soul-of-Essential-Oils.jpg");
+	background-size: 100%;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.container:hover .overlay8 {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.text8 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container9 {
+  position: relative;
+  width: 100%;
+}
+
+.image9 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay9 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url("../../../Documents/Energetics-and-the-Soul-of-Essential-Oils.jpg");
+	background-size: 100%;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.container:hover .overlay9 {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.text9 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container10 {
+  position: relative;
+  width: 100%;
+}
+
+.image10 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay10 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url("../../../Documents/Energetics-and-the-Soul-of-Essential-Oils.jpg");
+	background-size: 100%;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.container:hover .overlay10 {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.text10 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container11 {
+  position: relative;
+  width: 100%;
+}
+
+.image11 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay11 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url("../../../Documents/Energetics-and-the-Soul-of-Essential-Oils.jpg");
+	background-size: 100%;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.container:hover .overlay11 {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.text11 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container12 {
+  position: relative;
+  width: 100%;
+}
+
+.image12 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay12 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url("../../../Documents/Energetics-and-the-Soul-of-Essential-Oils.jpg");
+	background-size: 100%;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.container:hover .overlay12 {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.text12 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container13 {
+  position: relative;
+  width: 100%;
+}
+
+.image13 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay13 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url("../../../Documents/Energetics-and-the-Soul-of-Essential-Oils.jpg");
+	background-size: 100%;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.container:hover .overlay13 {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.text13 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container14 {
+  position: relative;
+  width: 100%;
+}
+
+.image14 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay14 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url("../../../Documents/Energetics-and-the-Soul-of-Essential-Oils.jpg");
+	background-size: 100%;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.container:hover .overlay14 {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.text14 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container15 {
+  position: relative;
+  width: 100%;
+}
+
+.image15 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay16 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url("../../../Documents/Energetics-and-the-Soul-of-Essential-Oils.jpg");
+	background-size: 100%;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.container:hover .overlay16 {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.text16 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container17 {
+  position: relative;
+  width: 100%;
+}
+
+.image17 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay17 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url("../../../Documents/Energetics-and-the-Soul-of-Essential-Oils.jpg");
+	background-size: 100%;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.container:hover .overlay17 {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.text17 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container18 {
+  position: relative;
+  width: 100%;
+}
+
+.image18 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay18 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url("../../../Documents/Energetics-and-the-Soul-of-Essential-Oils.jpg");
+	background-size: 100%;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.container:hover .overlay18 {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.text18 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container19 {
+  position: relative;
+  width: 100%;
+}
+
+.image19 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay19 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url("../../../Documents/Energetics-and-the-Soul-of-Essential-Oils.jpg");
+	background-size: 100%;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.container:hover .overlay19 {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.text19 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container20 {
+  position: relative;
+  width: 100%;
+}
+
+.image20 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay20 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url("../../../Documents/Energetics-and-the-Soul-of-Essential-Oils.jpg");
+	background-size: 100%;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.container:hover .overlay20 {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.text20 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container21{
+  position: relative;
+  width: 100%;
+}
+
+.image21 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay21 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url("../../../Documents/Energetics-and-the-Soul-of-Essential-Oils.jpg");
+	background-size: 100%;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.container:hover .overlay21 {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.text21 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
